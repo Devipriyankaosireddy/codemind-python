@@ -1,8 +1,7 @@
 n=int(input())
-l=len(str(n))
-s=n**2
-au=s%pow(10,len(str(n)))
-if au==n:
+b=n*n
+last=b%pow(10,len(str(n)))
+if (last==n):
     print("Automorphic Number")
 else:
     print("Not an Automorphic Number")
